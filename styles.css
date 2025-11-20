@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Brave Phoenix Super-Italic', sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://4kwallpapers.com/images/wallpapers/porsche-911-gt3-r-2880x1800-21380.png);
+  background-position: center;
+  background-size: cover;
+  padding-right: 5%;
+  padding-left: 3%;
+  box-sizing: border-box;
+  position: relative;
+}
+.navbar {
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 170px;
+  margin-top: 150px;
+  cursor: pointer;
+}
+nav {
+  flex: 1;
+  padding-left: 250px;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 0px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
+}
+a .cart {
+  font-size: 60px;
+  color: #fff;
+}
+a .cart:hover {
+  transform: scale(1.1);
+  color: #fff;
+  transition: all .5s;
+}
+#poop {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.content {
+  position: relative;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 100px;
+  letter-spacing: .1em;
+  font-size: 100px;
+  color: #C10F3E;
+}
+h1 .style {
+  color: #FFDD7F;
+  font-size: 110px;
+  font-weight: 800;
+  font-family: 'Double Pivot', sans-serif;
+}
+p {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  margin-top: 15px;
+  color: #FFFF;
+  font-family: 'BR Cobane', sans-serif;
+}
+.btn {
+  background-color: #1b1b1b;
+  margin-top: 80px;
+  padding: 15px 45px;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: .5s;
+  text-transform: uppercase;
+  color: #FFFF;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 24px;
+  display: block;
+  border-radius: 30px;
+  background-size: 200% auto;
+  box-shadow: 3px 8px 22px rgba(22,21,21,.15);
+}
+.btn:hover {
+  transform: scale(1.1);
+  transition: all .5s;
+}
+.social-media {
+  font-family: 'AaBbCc', sans-serif;
+  margin-top: 80px;
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 27px;
+}
+.icons {
+  color: #5493ab;
+  padding: 12px 12px 10px 12px;
+  border-radius: 50%;
+  margin-left: 10px;
+  width: 27px;
+  text-align: center;
+  height: 27px;
+  background-color: #53B3CB;
+  box-shadow: 3px 8px 22px rgba(22,21,21,.15);
+}
+.icons:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: #5493ab;
+  transition: all .5s;
+}
+.image {
+  position: absolute;
+  width: 370px;
+  height: 120px;
+  margin-bottom: 140px;
+  bottom: 0;
+  margin-left: 390px;
+  transform: rotate(-7deg);
+}
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.product-card {
+  background: #1b1b1b;
+  width: 280px;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 3px 8px 22px rgba(22,21,21,.15);
+  transition: transform 0.5s;
+}
+.product-card:hover {
+  transform: scale(1.05);
+}
+.product-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+.product-card h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Brave Phoenix', sans-serif;
+}
+.product-card p {
+  color: white;
+  font-family: 'BR cobane', sans-serif;
+  font-size: 30px;
+}
